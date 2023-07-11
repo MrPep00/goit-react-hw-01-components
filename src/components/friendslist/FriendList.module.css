@@ -1,0 +1,48 @@
+.friend_list {
+  width: 350px;
+  font-size: 16px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  box-shadow: 2px 5px 7px -1px rgba(66, 68, 90, 0.5);
+  border-radius: 4px;
+}
+
+.status {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+}
+
+.online {
+  background-color: green;
+}
+
+.offline {
+  background-color: red;
+}
+
+.avatar {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-radius: 8px;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: 700;
+  padding-left: 16px;
+}

@@ -12,7 +12,6 @@ export const App = () => {
   return (
     <div
       style={{
-        // height: '100vh',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
@@ -23,7 +22,6 @@ export const App = () => {
         paddingBottom: '20px',
       }}
     >
-      {/* React homework template */}
       <Profile
         username={user.username}
         tag={user.tag}
